@@ -49,4 +49,20 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    //Design
+    implementation("com.google.android.material:material:1.0.0")
+
+    //Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.4.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.2.0")
+
+    //Date/Time
+    implementation("org.ocpsoft.prettytime:prettytime:4.0.1.Final")
+
+    //Picaso for image url
+    implementation("com.squareup.picasso:picasso:2.5.0")
+
+    implementation("com.google.code.gson:gson:2.8.8")
+
 }
